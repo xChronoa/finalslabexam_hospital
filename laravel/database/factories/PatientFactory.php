@@ -25,6 +25,7 @@ class PatientFactory extends Factory
             'phone' => fake()->phoneNumber(),
             'email' => fake()->unique()->safeEmail(),
             'emergency_contact' => fake()->phoneNumber(),
+            'medical_history' => fake()->text()
         ];
     }
 }
