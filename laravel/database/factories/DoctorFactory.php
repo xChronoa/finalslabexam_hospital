@@ -20,7 +20,7 @@ class DoctorFactory extends Factory
             'first_name' => fake()->name(),
             'last_name' => fake()->name(),
             'specialization' => fake()->text(),
-            'license_number' => fake()->string(),
+            'license_number' => fake()->text(),
             'phone' => fake()->phoneNumber(),
             'email' => fake()->safeEmail() 
         ];
